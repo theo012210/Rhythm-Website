@@ -17,5 +17,3 @@ Notes & assumptions
 - Internally the smallest unit is a 32nd note (demisemiquaver)
 - Medium includes dotted notes and triplet groups (shown as triplet of eighths)
 - Difficult picks half of the basic types (semibreve..demisemiquaver) to guarantee variety
-
-If you want: I can add audio playback, better notation styling (percussion staff, rests), or export questions as printable PDFs.
