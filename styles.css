@@ -50,3 +50,5 @@ h1{margin:0 0 12px}
 button{background:var(--accent);color:#fff;border:none;padding:8px 10px;border-radius:6px;cursor:pointer}
 button[disabled]{opacity:.5;cursor:default}
 small.hint{display:block;color:#666;margin-top:6px}
+.credit{margin-top:40px;text-align:center;font-size:.85rem;color:#555}
+.credit-name{color:rgb(0,72,255);font-weight:600}
