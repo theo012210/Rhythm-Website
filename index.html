@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rhythm Guessing</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- VexFlow for rendering rhythmic notation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vexflow/3.0.9/vexflow-min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <main>
+    <h1>Rhythm Guessing</h1>
+    <div class="controls">
+      <label for="level">Level:</label>
+      <select id="level">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="difficult">Difficult</option>
+      </select>
+      <button id="newBtn">New Question</button>
+      <button id="playBtn">Play (metronome)</button>
+    </div>
+    <section id="options">
+      <h2>Choose the matching rhythm</h2>
+      <div id="optionsContainer"></div>
+    </section>
+
+  </main>
+  <script src="toast.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
